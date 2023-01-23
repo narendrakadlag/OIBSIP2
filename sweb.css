@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* 
+*/
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 i{
+    margin:0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: #e67e22;
+}
+
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 70px;
+}
+
+.nav2 img{
+    height: 100px;
+    width: 200px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+header img
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.90),rgb(0,0,0,0.90))
+    background-size: 100% 100%;
+    align-items: center;
+    
+}
+
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.h-text h1{
+    color: white;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h-text span{
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h-text p{
+    color:whitesmoke;
+    font-size: 20px;
+    margin: 40px 0;
+    list-style: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    color: black;
+    background-color: #e67e22;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+    
+}
